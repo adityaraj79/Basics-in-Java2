@@ -8,7 +8,7 @@ public class Main {
         int n = sc.nextInt();
         int pos = sc.nextInt();
         int bitmask = 1<<pos;
-
+                                                        // getBit: to know about ith bit
         if((bitmask & n) == 0){
             System.out.println("0");
         }else{
